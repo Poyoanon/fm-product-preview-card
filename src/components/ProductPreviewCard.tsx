@@ -5,7 +5,7 @@ const ProductPreviewCard: React.FC = () => {
 <div className="flex items-center justify-center h-screen">
   <div className="grid-cols-2 flex flex-col sm:flex-row w-80 sm:w-auto">
     <div className="bg-white rounded-t-xl sm:rounded-l-xl">
-      <img src="/images/image-product-desktop.jpg" className="object-cover w-full h-60 sm:h-auto sm:w-80 rounded-t-xl sm:rounded-l-xl"></img>
+      <img src="/images/image-product-desktop.jpg" className="object-cover w-full h-60 sm:h-auto sm:w-80 rounded-t-xl sm:rounded-l-xl sm:rounded-none"></img>
     </div>
     <div className="bg-white rounded-b-xl sm:rounded-r-xl p-6 sm:p-8 flex flex-col">
       <p className="text-gray-500 tracking-wider font-sans text-xs mb-2 sm:mb-6">P E R F U M E</p>
